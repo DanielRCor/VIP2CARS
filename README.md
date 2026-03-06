@@ -8,14 +8,13 @@ Sistema de gestión para el rubro automotriz desarrollado en **Laravel 11**. Per
 
 - **PHP**: ^8.2 (Recomendado 8.2.12 o superior)
 - **Base de Datos**: MySQL / MariaDB (XAMPP compatible)
-- **Servidor Web**: Apache (XAMPP) o Artisan Serve
-- **Extensiones PHP**: `BCMath`, `Ctype`, `Fileinfo`, `JSON`, `Mbstring`, `OpenSSL`, `PDO`, `Tokenizer`, `XML`
+- **Servidor Web**: Artisan Serve
 
 ---
 
 ## 🧰 Instalación y Configuración
 
-1. **Clonar/Descargar el proyecto** en la carpeta de su servidor local (ej. `C:/xampp/htdocs/VIP2CARS`).
+1. **Clonar/Descargar el proyecto** en la carpeta de su servidor local 
 2. **Instalar dependencias**:
    ```bash
    composer install
@@ -43,7 +42,6 @@ Sistema de gestión para el rubro automotriz desarrollado en **Laravel 11**. Per
    php artisan migrate:fresh --seed
    ```
 3. **Levantar el proyecto**:
-   - Con **XAMPP**: Acceda a `http://localhost/VIP2CARS/public`
    - Con **Artisan**: Ejecute `php artisan serve` y acceda a `http://127.0.0.1:8000`
 
 ---
@@ -61,16 +59,8 @@ Se encuentra disponible un script de exportación en:
 
 ---
 
-## 🔑 Usuario Demo
-El sistema no requiere autenticación obligatoria para el CRUD básico solicitado, pero se han incluido datos de prueba para verificar la funcionalidad:
-- **Clientes**: Carlos Ramírez, María López, etc.
-- **Vehículos**: ABC-123 (Toyota Corolla), DEF-456 (Hyundai Tucson), etc.
-
----
-
 ## 📏 Características Implementadas
 - ✅ **CRUD Completo**: Crear, Leer, Actualizar y Eliminar.
 - ✅ **Búsqueda Dinámica**: Filtre por placa, marca, modelo o nombre del cliente.
 - ✅ **Validaciones Robustas**: Control de placas únicas, formatos de correo, teléfonos y años.
-- ✅ **Diseño Premium**: Interfaz moderna con Bootstrap 5 y modo oscuro en barra de navegación.
 - ✅ **Manejo de Errores**: Mensajes de éxito y error amigables en español.
